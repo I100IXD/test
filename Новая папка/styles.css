@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  background-color: #f8f6f6;
+
+  color: #0f141e;
+
+  font-size: 16px;
+
+  font-weight: normal;
+
+  font-family: "Roboto" sans-serif;
+  /* font-family:Cambria, Cochin, Georgi,Times, 'Times New Roman', serif;*/
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+}
+a:visited {
+  color: blue;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.avatar {
+  width: 400px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.8);
+}
+/*.info p {
+  color: rgb(53, 2, 73);
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.mor {
+  background: rgb(25, 167, 192);
+  border: 5px solid rgb(23, 0, 155);
+  padding: 15px;
+}
+.container {
+  max-width: 100%;
+  margin: auto;
+}*/
+
+.form-grop label {
+  display: block;
+}
+
+.form-grop input {
+  width: 50%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid rgb(238, 190, 190);
+  color: black;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+.info {
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  .info {
+    display: block;
+  }
+}
+
+.info-text {
+  margin-left: 40px;
+}
+.info-text p {
+  margin-bottom: 80px;
+}
+.tor {
+  color: rgb(245, 242, 242);
+  padding: 15px 20px;
+  background: black;
+  color: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.position {
+  position: relative;
+  border: 4px solid black;
+  margin-top: 40px;
+  padding: 40px;
+  height: 200px;
+}
+
+.box {
+  position: absolute;
+  bottom: 20;
+  right: 34;
+  width: 50px;
+  height: 50px;
+  background: rgb(95, 219, 79);
+}
+
+.bot {
+  border: 10px solid black;
+  max-width: 600;
+  margin: 0px auto;
+  height: 1200px;
+  position: relative;
+}
+
+.bot div {
+    line-height: 50px;
+font-size: 15px;
+font-weight: 800;
+    text-align: center;
+}
+
+.bot_1 {
+   background-color:  blueviolet;
+  
+
+}
+
+.bot_2 {
+
+    background-color: aqua;
+    position: a;
+    top: 20px;
+    left: 100px;
+}
+
+.bot_3 {
+    background-color: greenyellow;
+    
+}
+

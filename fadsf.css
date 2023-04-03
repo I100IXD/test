@@ -1,0 +1,17 @@
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: start;
+  height: 600px;
+  width: 100%;
+  background: green;
+}
+
+.child {
+  display: flex;
+  margin-left: 20px;
+  height: 100px;
+  width: 100px;
+  background: red;
+}
